@@ -1,12 +1,4 @@
-    # Ignore build directories
     cmake-build-*
-
-    # Ignore IDE-specific files
-    .idea/workspace.xml
-    .idea/usage.statistics.xml
-    .idea/dictionaries/
-    .idea/shelf/
-
-    # Ignore executables
+    .idea
     *.exe
     *.out

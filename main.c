@@ -1,7 +1,7 @@
-// Radithya 10 / 12 / 2025
-// Program ini dibuat dengan IDE CLion
-// laporan.txt tersimpan di folder cmake-build-debug jika menggunakan CLion
-// saya menyimpannya di path utama untuk menunjukkan sample txtnya
+// Nama: Radithya Mahesa Syabil
+// Nim: 251511025
+// Kelas: D3/1A
+// Tanggal Ujian: 10/12/2025
 
 #include <stdio.h>
 #include <string.h>
