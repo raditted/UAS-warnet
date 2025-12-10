@@ -24,17 +24,16 @@ void SetBln(int NewBln, date *D);
 void SetThn(int NewThn, date *D);
 
 /* I/O */
-void BacaDate(date *D);      /* baca dari stdin */
-void PrintObj(date D);       /* cetak dd/mm/yyyy */
-
+void BacaDate(date *D);
+void PrintObj(date D);
 /* Validasi & util */
 bool isValid(date D);
 bool isKabisat(date D);
 int TglAkhir(date D);
 
 /* Operasi tanggal */
-void DateBefore(date D);     /* tampilkan tanggal sebelumnya */
-void NextDate(date D);       /* tampilkan tanggal berikutnya */
-int SelisihDate(date D1, date D2); /* kembalikan selisih dalam hari (asumsi 1 thn = 365 hari) */
+void DateBefore(date D);
+void NextDate(date D);
+int SelisihDate(date D1, date D2);
 
 #endif

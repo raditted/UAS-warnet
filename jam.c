@@ -1,6 +1,5 @@
 #include "jam.h"
 
-/* Reset ke 00:00:00 */
 void ResetJam(jam *J) {
     J->HH = 0;
     J->MM = 0;
@@ -17,7 +16,7 @@ long JamToDetik(jam J) {
 
 jam DetikToJam(long d) {
     jam J;
-    d %= 86400; // Jaga tetap 0–86399
+    d %= 86400;
 
     J.HH = d / 3600;
     d %= 3600;
